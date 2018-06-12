@@ -1,0 +1,55 @@
+/*
+   文件名：ss_des.css
+   备注：官网搜索详情样式文件
+   版本：v1.0
+ Created by lc on 2016-11-30.
+ Copyright 2016 ling. All rights reserved.
+*/
+@charset "utf-8";
+html, body{
+	background: #ECF0F1;
+}
+#page_bodyer{
+	margin-top: 106px;
+}
+#page_bodyer .container{
+	background: #fff;
+}
+#page_bodyer .container h2{
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	padding-top: 30px;
+	border-bottom: 1px solid #ccc;
+}
+.channellist{
+	font-size: 16px;
+	line-height: 25px;
+	text-align: left;
+}
+.channellist li:first-child{
+	margin-top: 10px;
+}
+.channellist li{
+	margin-top: 30px;
+}
+.channellist li h4{
+	margin-bottom: 10px;
+}
+table, th, td{
+	border: 1px solid #666;
+	text-align: center;
+}
+.channel_bottom table{
+	width: 100%;
+	margin: 5px 0px;
+}
+table td, table th{
+	padding: 5px;
+}
+@media screen and (max-width: 1199px){
+	#page_bodyer{
+		margin-top: 75px;
+	}
+}
+

@@ -1,0 +1,232 @@
+/*
+   文件名：app.css
+   备注：官网APP家族样式文件
+   版本：v1.0
+ Created by lc on 2016-11-16.
+ Copyright 2016 ling. All rights reserved.
+*/
+
+@charset "utf-8";
+#fullpage{
+	padding-top: 106px;	
+}
+
+#menu{
+	position: fixed;
+	right: 20px;
+	top: 40%;
+	z-index: 10;
+	list-style-type: none;
+}
+
+#menu li{
+	width: 90px;
+	height: 22px;
+	margin-top: 7px;
+	overflow: hidden;	
+}
+
+#menu a{
+	display: block;
+	height: 22px;
+	line-height: 22px;
+	background: url(../images/app/pagination.png) right -19px no-repeat;
+	color: #fff;
+	text-align: right;
+	text-shadow: 1px 1px 0px #333;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+#menu .active a{
+	background-position: right 0;
+}
+
+#menu span{
+	display: block;
+	width: 60px;
+	height: 22px;
+	font-size: 12px;
+	text-indent: 200px;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	overflow: hidden;
+}
+
+.ajys,.jlxw,.ajzbb{
+	background: url(../images/app/Assistor.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.learn_more{
+	padding-right: 20px;
+}
+.learn_more,.buy{
+	color: #fff;
+}
+.ajys_des h2,.jlxw_des h2,.ajzbb_des h2{
+	color: #fff;
+	font-size: 60px;
+	font-weight: 100;
+}
+.ajys .p1,.jlxw .p1,.ajzbb .p1{
+	font-size: 28px;
+	font-weight: 100;
+	padding: 28px 0px;
+	color: #fff;
+}
+.ajys .p2,.jlxw .p2,.ajzbb .p2{
+	font-size: 15px;
+	padding-bottom: 60px;
+	line-height: 25px;
+	color: #fff;
+}
+.ajys .p3,.jlxw .p3,.ajzbb .p3{
+	font-size: 16px;
+	font-weight: 100;
+}
+.ajys .container,.jlxw .container,.ajzbb .container{
+	margin-top: 12%;
+	/*margin-top: 300px\9;*/
+}
+.ajys_des,.jlxw_des,.ajzbb_des{
+	margin-top: 30%;
+}
+.jlxw_des{
+	position: relative;
+	left: -400%;
+}
+.ajzbb_des{
+	display: none;
+}
+.jlxw_img img{
+	width: 370px;
+}
+
+/*移动端显示*/
+#mobile-app{
+	padding-top: 106px;
+}
+.app_item{
+	background: url(../images/app/Assistor.png) no-repeat center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	padding: 100px 20px;
+	text-align: center;
+}
+.app_item h2{
+	color: #fff;
+	font-size: 45px;
+	font-weight: 100;
+}
+.app_item .p1{
+	font-size: 28px;
+	font-weight: 100;
+	padding: 28px 0px;
+	color: #fff;
+}
+.app_item .p2{
+	font-size: 15px;
+	color: #fff;
+	padding-bottom: 60px;
+	line-height: 25px;
+	text-align: left;
+}
+.app_item .p3{
+	font-size: 16px;
+	font-weight: 100;
+}
+
+/*修改*/
+.ajys_img_wx,.jlxw_img_wx,.ajzbb_img_wx{
+	margin-top: 20px;
+}
+.ajys_img_wx img,.jlxw_img_wx img,.ajzbb_img_wx img{
+	width: 100px;
+	height: 100px;
+}
+@media (max-width: 1600px) {
+	.ajys_img img{
+		width: 400px;
+	}
+	.jlxw_img img{
+		width: 344px;
+	}
+	.ajzbb_img img{
+		width: 404px;
+	}
+}
+@media (max-width: 1440px) {
+	.ajys_img img{
+		width: 410px;
+	}
+	.jlxw_img img{
+		width: 354px;
+	}
+	.ajzbb_img img{
+		width: 414px;
+	}
+}
+
+@media (max-width: 1280px) {
+	.ajys .container{
+		margin-top: 14%;
+	}
+	.jlxw_img img{
+		width: 362px;
+	}
+	.ajzbb_img img{
+		width: 425px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.ajys .container{
+		margin-top: 15%;
+	}
+	.jlxw_img img{
+		width: 368px;
+	}
+	.ajzbb_img img{
+		width: 430px;
+	}
+}
+@media (max-width: 1199px){
+	#fullpage{
+		padding-top: 75px;	
+	}
+	.learn_more{
+		padding-right: 0px;
+	}
+}
+
+
+@media (max-width: 991px) {
+	.ajys_img,.jlxw_img,.ajzbb_img{
+		display: none;
+	}
+	.ajys_des,.jlxw_des,.ajzbb_des{
+		margin: 0;
+		text-align: center;
+	}
+	#menu,#fullpage{
+		display: none;
+	}
+	#mobile-app{
+		display: block;
+	}
+}
+
+@media (max-width: 768px){
+	#mobile-app{
+		padding-top: 75px;
+	}
+}
+
+
+
+

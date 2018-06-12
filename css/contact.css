@@ -1,0 +1,264 @@
+/*
+   文件名：contact.css
+   备注：官网联系我们样式文件
+   版本：v1.0
+ Created by lc on 2016-11-25.
+ Copyright 2016 ling. All rights reserved.
+*/
+
+@charset "utf-8";
+html, body{
+	background: #eee;
+}
+
+#page_baner{
+	background: url(../images/about/gyuwm_02.jpg) no-repeat top center;
+	background-size: cover;
+	height: 556px;
+	width: 100%;
+	margin-top: 106px;
+}
+.join_icon{
+	position: absolute;
+	top: 45%;
+	z-index: 99;
+	left: 44%;
+}
+#page_bodyer .container{
+	background: #fff;
+}
+.add_des{
+	padding: 150px 30px 60px 30px;
+	width: 95%;
+	margin: 0 auto;
+	border-bottom: 1px solid #eee;
+}
+.add_des p{
+	color: #434141;
+	font-size: 16px;
+	line-height: 30px;
+}
+.add_des .address{
+	color: #5D5D5D;
+	font-size: 22px;
+	font-weight: bold;
+}
+.add_des .address small{
+	color: #7B7B7B;
+	font-size: 12px;
+	font-weight: normal;
+	padding-left: 10px;
+}
+.add_des .map{
+	color: #545353;
+	padding: 40px 0px;
+}
+.add_des .map_img{
+	width: 74%;
+	margin: 0 auto;
+}
+.contact .user_img img{
+	width: 130px;
+	height: 140px;
+	display: block;
+	margin: 0 auto;
+}
+.contact .user_des p{
+	color: #979696;
+	line-height: 30px;
+	font-size: 14px;
+}
+.contact .user_des .find{
+	color: #616060;
+	font-size: 20px;
+	padding: 10px 0px;
+}
+.contact_item{
+	margin-bottom: 80px;
+}
+.wx{
+	width: 40%;
+	margin: 0 auto;
+}
+.wx_des{
+	color: #bdbdbd;
+	font-size: 13px;
+	margin-bottom: 50px;
+}
+.wx_des p{
+	width: 105px;
+	display: block;
+	margin: 0 auto;
+}
+.contact_bottom{
+	padding: 70px 0px;
+	text-align: center;
+}
+.contact{
+	width: 95%;
+	margin: 0 auto;
+	border-bottom: 1px solid #eee;
+	padding-top: 60px;
+}
+.contact_bottom .top_img img{
+	width: 73px;
+	height: 73px;
+	display: block;
+	margin: 0 auto;
+}
+.contact_bottom p{
+	color: #616060;
+	font-size: 20px;
+	padding: 10px 0px;
+}
+.contact_bottom ul li{
+	color: #979696;
+	font-size: 14px;
+	line-height: 30px;
+}
+@media (max-width: 1600px){
+	#page_baner{
+		height: 463px;
+	}
+	.join_icon{
+		top:38%;
+		left: 43%;
+	}
+}
+@media (max-width: 1440px){
+	#page_baner{
+		height: 417px;
+	}
+	.join_icon{
+		top: 33%;
+		left: 42%;
+	}
+}
+@media (max-width: 1280px){
+	#page_baner{
+		height: 370px;
+	}
+	.join_icon{
+		top:27%;
+		left: 41%;
+	}
+}
+@media (max-width: 1200px){
+	#page_baner{
+		height: 347px;
+	}
+	.join_icon{
+		top:26%;
+	}
+}
+@media (max-width: 1199px){
+	#page_baner{
+		margin-top: 75px;
+	}
+}
+@media (max-width: 991px){
+	#page_baner{
+		height: 287px;
+	}
+	.join_icon{
+		top:19%;
+		left: 38%;
+	}
+}
+@media (max-width: 800px){
+	.join_icon{
+		top:13%;
+	}
+}
+
+@media (max-width: 768px){	
+	#page_baner{
+		height: 222px;
+	}
+	.join_icon{
+		top:16%;
+		left: 42%;
+	}
+	.join_icon img{
+		width: 50%;
+	}
+	.add_des{
+		padding: 50px 30px 0px 30px;
+	}
+	.contact{
+		padding: 50px 30px 0px 30px;
+	}
+	.contact_item{
+		margin-bottom: 50px;
+	}
+	.wx{
+		width: 90%;
+	}
+}
+@media (max-width: 600px){
+	.join_icon{
+		top: 17%;
+		left: 41%;
+	}
+}
+@media (max-width: 500px){
+	#page_baner{
+		height: 145px;
+	}
+	.join_icon{
+		top:10%;
+		left: 39%;
+	}
+	.add_des .map_img{
+		width: 100%;
+	}
+	.contact .user_des p{
+		line-height: 24px;
+	}
+	.contact .user_des .find{
+		padding: 0;
+	}
+	.contact .user_img img{
+		width: 80%;
+		height: auto;
+	}
+	.wx{
+		width: 100%;
+	}
+	.contact{
+		padding: 50px 0px 0px 0px;
+	}
+	.contact_bottom_item{
+		margin-bottom: 20px;
+	}
+	.contact_bottom{
+		padding: 50px 0px;
+	}
+}
+@media (max-width: 414px){
+	.join_icon{
+		top:12%;
+		left: 39%;
+	}
+}
+@media (max-width: 384px){
+	.join_icon{
+		top: 14%;
+	}
+}
+@media (max-width: 375px){
+	.join_icon{
+		top: 13%;
+		left:36%;
+	}
+}
+@media (max-width: 360px){
+	.join_icon{
+		top:15%;
+	}
+}
+@media (max-width: 320px){
+	.join_icon{
+		top:16%;
+	}
+}

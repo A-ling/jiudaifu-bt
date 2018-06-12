@@ -1,0 +1,385 @@
+/*
+   文件名：about.css
+   备注：官网关于我们样式文件
+   版本：v1.0
+ Created by lc on 2016-11-17.
+ Copyright 2016 ling. All rights reserved.
+*/
+
+@charset "utf-8";
+html, body{
+	background: #fff;
+}
+
+#page_baner{
+	background: url(../images/about/gyuwm_02.jpg) no-repeat top center;
+	background-size: cover;
+	height: 556px;
+	width: 100%;
+	margin-top: 106px;
+}
+
+/*firm*/
+.hardware_title{
+	padding: 40px;
+	text-align: center;
+}
+.hardware_en{
+	color: #333;
+	font-size: 30px;
+	padding-bottom: 6px;
+	font-weight: normal;
+}
+.hardware_line{
+	background: url(../images/about/line.jpg) no-repeat;
+	display: inline-block;
+	background-size: 80%;
+	height: 2px;
+	width: 40px;
+	padding-bottom: 7px;
+}
+.hardware_name{
+	color: #666;
+	font-size: 24px;
+	padding-right: 10px;
+	font-weight: normal;
+}
+.line_right{
+	background-size: 90%;
+	width: 35px;
+}
+.firm_des{
+	font-size: 15px;
+	color: #333;
+	line-height: 24px;
+	letter-spacing: 1px;
+}
+.firm_img{
+	padding: 60px 0px;
+}
+/*team*/
+#team{
+	position: relative;
+	background: url(../images/about/gywm_091.jpg) no-repeat top center;
+	width: 100%;
+	background-size: cover;
+}
+#team .container{
+	padding-top: 30px;
+}
+#team .hardware_en{
+	color: #fff;
+}
+#team .hardware_name{
+	color: #fff;
+}
+.t_des{
+	font-size: 16px;
+	color: #333;
+	line-height: 24px;
+	padding: 28px 3px;
+	letter-spacing: 1px;
+}
+/*权威认证*/
+#auth .container{
+	position: relative;
+}
+.zhiz_top_img{
+	width: 200px;
+}
+.zhiz_img{
+	display: block;
+	margin: 0 auto;
+	width: 315px;
+}
+.zhiz_img img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	border: 0;
+}
+.zhiz_bottom p, .zhiz_top p{
+	text-align: center;
+	color: #666;
+	line-height: 30px;
+	font-size: 13px;
+}
+.qual-baog{
+	width: 100%;
+	margin: 50px 0px;
+}
+.simg,.simg-sml,.simg-abso{
+    cursor: pointer;
+    transition: 0.3s;
+    -moz-transition: 0.3s;	    
+    -webkit-transition:0.3s;	
+    -o-transition: 0.3s;
+    width: 100%;   
+}
+.simg-baog:hover{
+	position: relative;
+    z-index: 99;
+    transform: scale(2,2);
+    -ms-transform: scale(2,2);	      
+    -webkit-transform: scale(2,2);	   
+    -o-transform: scale(2,2);		  
+    -moz-transform: scale(2,2);
+}
+.simg-zhiz:hover{
+    z-index: 99;
+    transform: scale(2,2);
+    -ms-transform: scale(2,2);	      
+    -webkit-transform: scale(2,2);	   
+    -o-transform: scale(2,2);		  
+    -moz-transform: scale(2,2);
+}
+.baog-img img{
+	width: 100%;
+	display: block;
+	border: 0;
+}
+.baog-text{
+	text-align: center;
+	line-height: 25px;
+	font-size: 13px;
+}
+p.baog-n{
+	color: #666;
+}
+p.baog-b{
+	color: #0382DB;
+}
+.middle_text{
+	text-align: center;
+	color: #666;
+	padding: 20px 70px;
+	font-size: 16px;
+	line-height: 30px;
+	margin-bottom: 30px;
+	clear: both;
+}
+.pro-main{
+	width: 290px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.pro-det{
+	display: block;
+	width: 2500px;
+}
+.main-li{
+	display: block;
+	float: left;
+	padding: 10px;
+	width: 290px;
+	text-align: center;
+	white-space: normal;
+	position: relative;
+	background: #E7F0F5;
+}
+.auth_img{
+	width:100%;
+}
+.item_des{
+	background: rgba(51,51,51,0.4);
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	padding: 15px 0px;
+	left: 0;
+	bottom: 0;
+	color: #fff;
+	background: #333;
+	filter:alpha(opacity=40);     
+	-moz-opacity:0.4;              
+	-khtml-opacity:0.4;
+	opacity: 0.4;
+	font-size: 18px;
+}
+.item_des p{
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.cont-left{
+	background: url(../images/about/assistor_right.png) no-repeat;
+	left: 15%;
+}
+.cont-right{
+	background: url(../images/about/assistor_left.png) no-repeat;
+	right: 15%;
+}
+.cont-btn{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	bottom: 15%;
+}
+
+
+/*about_side*/
+#about_side{
+	width: 148px;
+	min-height: 200px;
+	position: fixed;
+	z-index: 999;
+	left: 5%;
+	top: 70%;
+	background: #fff;
+	overflow: hidden;
+}
+#about_side li{
+	border-bottom: 1px solid #ddd;
+	text-align: left;
+	padding-left: 10px;
+	display: inline-block;
+	width: 100%;
+}
+#about_side li.active a,#about_side li.active .i_icon{
+	background: #eff3f6;
+}
+#about_side li a{
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	font-size: 14px;
+	float: left;
+	float: right;
+	width: 80%;
+	margin: 5px 0px;
+}
+.i_icon{
+	background: url(../images/about/y_icon.png) no-repeat center center;
+	font-size: 14px;
+	display: block;
+	float: left;
+	width: 20%;
+	height: 45px;
+	margin: 5px 0px;
+}
+
+@media (min-width: 1200px){
+	#firm .container,#auth .container{
+		width: 830px;
+	}
+	#team .container,#expert .container{
+		width: 640px;
+	}
+}
+@media (max-width: 1600px){
+	#page_baner{
+		height: 463px;
+	}
+}
+@media (max-width: 1440px){
+	#page_baner{
+		height: 417px;
+	}
+}
+@media (max-width: 1280px){
+	#page_baner{
+		height: 370px;
+	}
+}
+@media (max-width: 1200px){
+	#page_baner{
+		height: 347px;
+	}
+}
+@media (max-width: 1199px){
+	#page_baner{
+		margin-top: 75px;
+	}
+	#about_side{
+		display: none;
+	}
+}
+@media (max-width: 991px){
+	#page_baner{
+		height: 287px;
+	}
+	.baog-img img{
+		width: 200px;
+		margin: 0 auto;
+	}
+	.middle_text{
+		padding: 20px 0px;
+	}
+	.cont-btn{
+		bottom: 8%;
+	}
+	
+}
+@media (max-width: 768px){
+	#page_baner{
+		height: 222px;
+	}
+	#team .container,#expert .container{
+		width: 500px;
+	}
+}
+@media (max-width: 680px){
+	.cont-left{
+		left: 5%;
+	}
+	.cont-right{
+		right: 5%;
+	}
+}
+@media (max-width: 530px){
+	#team .container,#expert .container{
+		width: 350px;
+	}
+	.simg-baog:hover{
+		position: relative;
+	    z-index: 99;
+	    transform: scale(1.2,1.2);
+	    -ms-transform: scale(1.2,1.2);	      
+	    -webkit-transform: scale(1.2,1.2);	   
+	    -o-transform: scale(1.2,1.2);		  
+	    -moz-transform: scale(1.2,1.2);
+	}
+	.simg-zhiz:hover{
+	    z-index: 99;
+	    transform: scale(1.2,1.2);
+	    -ms-transform: scale(1.2,1.2);	      
+	    -webkit-transform: scale(1.2,1.2);	   
+	    -o-transform: scale(1.2,1.2);		  
+	    -moz-transform: scale(1.2,1.2);
+	}
+	.baog-img img,.zhiz_img{
+		width: 80%;
+	}
+	.cont-btn{
+		bottom: 6%;
+	}
+}
+@media (max-width: 500px){
+	#page_baner{
+		height: 145px;
+	}
+}
+@media (max-width: 460px){
+	.main-li,.pro-main{
+		width: 220px;
+	}
+	.cont-btn{
+		bottom: 5%;
+	}
+}
+@media (max-width: 400px){
+	#team .container,#expert .container{
+		width: 280px;
+	}
+	.main-li,.pro-main{
+		width: 180px;
+	}
+	.item_des{
+		font-size: 12px;
+	}
+	.hardware_title{
+		padding: 20px;
+	}
+}

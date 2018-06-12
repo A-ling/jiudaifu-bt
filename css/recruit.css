@@ -1,0 +1,246 @@
+/*
+   文件名：recruit.css
+   备注：官网加入我们样式文件
+   版本：v1.0
+ Created by lc on 2016-11-17.
+ Copyright 2016 ling. All rights reserved.
+*/
+
+@charset "utf-8";
+html, body{
+	background: #eee;
+}
+
+#page_baner{
+	background: url(../images/about/gyuwm_02.jpg) no-repeat top center;
+	background-size: cover;
+	height: 556px;
+	width: 100%;
+	margin-top: 106px;
+}
+.join_icon{
+	position: absolute;
+	top: 45%;
+	z-index: 99;
+	left: 44%;
+}
+/*招聘岗位*/
+.job{
+	background: #fff;
+	padding: 150px 30px 70px 30px;
+}
+.job h2{
+	color: #000;
+	font-size: 24px;
+	padding: 20px;
+}
+.job table{
+	width: 100%;
+	padding: 0px 40px;
+	border: 1px solid #02508c;
+	border-top: 70px;
+}
+.job table tr td{
+	padding: 15px 0px;
+	text-align: center;
+	font-size: 13px;
+}
+/*.job table tr td a:hover{
+	cursor: pointer;
+	color: #0e6eb8;
+}*/
+.job table tr td:hover{
+	cursor: pointer;
+	color: #0e6eb8;
+}
+.job table .tr_th th{
+	background: #CFE2F1;
+	padding: 10px 0px;
+	color: #02508c;
+	text-align: center;
+	min-width: 66px;
+}
+.job table tr td:first-child,.job table .tr_th th:first-child{
+	padding-left: 50px;
+	text-align: left;
+}
+.job_name{
+	color: #000;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 20px;
+}
+.firm_ms{
+	padding-left: 20px;
+}
+.firm_ms li{
+	width: 33.3%;
+	float: left;
+	line-height: 34px;
+	color: #000;
+	font-size: 13px;
+}
+.require{
+	color: #000;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 20px;
+}
+.require_list{
+	padding-left: 30px;
+}
+.require_list li{
+	font-size: 13px;
+	color: #000;
+	list-style: decimal;
+	line-height: 30px;
+}
+.send{
+	color: #000;
+	font-size: 34px;
+	font-weight: 500;
+	padding: 30px 20px 0px 150px;
+}
+.job_content div{
+	display: none;
+	margin-left: 45px;
+	margin-top: 30px;
+}
+.job_content p{
+	line-height: 30px;
+}
+@media (max-width: 1600px){
+	#page_baner{
+		height: 463px;
+	}
+	.join_icon{
+		top:38%;
+		left: 43%;
+	}
+}
+@media (max-width: 1440px){
+	#page_baner{
+		height: 417px;
+	}
+	.join_icon{
+		top: 33%;
+		left: 42%;
+	}
+}
+@media (max-width: 1280px){
+	#page_baner{
+		height: 370px;
+	}
+	.join_icon{
+		top:27%;
+		left: 41%;
+	}
+}
+@media (max-width: 1200px){
+	#page_baner{
+		height: 347px;
+	}
+	.join_icon{
+		top:26%;
+	}
+}
+@media (max-width: 1199px){
+	#page_baner{
+		margin-top: 75px;
+	}
+}
+
+@media (max-width: 991px){
+	#page_baner{
+		height: 287px;
+	}
+	.join_icon{
+		top:19%;
+		left: 38%;
+	}
+	.job table tr td:first-child, .job table .tr_th th:first-child{
+		padding-left: 5px;
+	}
+	.send{
+		font-size: 24px;
+	}
+}
+@media (max-width: 800px){
+	.join_icon{
+		top:13%;
+	}
+}
+@media (max-width: 768px){
+	#page_baner{
+		height: 222px;
+	}
+	.join_icon{
+		top:16%;
+		left: 42%;
+	}
+	.join_icon img{
+		width: 50%;
+	}
+	.firm_ms li{
+		width: 50%;
+	}
+	.job{
+		padding: 50px 30px 70px 30px;
+	}
+}
+@media (max-width: 625px){
+	.send{
+		padding: 30px 20px 0px 50px;
+	}
+}
+@media (max-width: 600px){
+	.join_icon{
+		top: 17%;
+		left: 41%;
+	}
+}
+@media (max-width: 525px){
+	.send{
+		padding: 30px 0px 0px 30px;
+	}
+}
+@media (max-width: 414px){
+	#page_baner{
+		height: 145px;
+	}
+	.join_icon{
+		top:12%;
+		left: 39%;
+	}
+	.firm_ms li{
+		width: 100%;
+	}
+}
+@media (max-width: 384px){
+	.join_icon{
+		top: 14%;
+	}
+}
+@media (max-width: 375px){
+	.join_icon{
+		top: 13%;
+		left:36%;
+	}
+}
+@media (max-width: 360px){
+	.join_icon{
+		top:15%;
+	}
+}
+@media (max-width: 320px){
+	.join_icon{
+		top:16%;
+	}
+}
+@media (max-width: 325px){
+	.job table tr td{
+		font-size: 12px;
+	}
+}
+
+

@@ -1,0 +1,565 @@
+/*
+   文件名：about.css
+   备注：官网关于我们样式文件
+   版本：v1.0
+ Created by lc on 2016-11-17.
+ Copyright 2016 ling. All rights reserved.
+*/
+
+@charset "utf-8";
+html, body{
+	background: #fff;
+}
+
+#page_baner{
+	background: url(../images/about/gyuwm_02.jpg) no-repeat top center;
+	background-size: cover;
+	height: 556px;
+	width: 100%;
+	margin-top: 106px;
+}
+
+/*firm*/
+.hardware_title{
+	padding: 40px;
+	text-align: center;
+}
+.hardware_en{
+	color: #333;
+	font-size: 30px;
+	padding-bottom: 6px;
+	font-weight: normal;
+}
+.hardware_line{
+	background: url(../images/about/line.jpg) no-repeat;
+	display: inline-block;
+	background-size: 80%;
+	height: 2px;
+	width: 40px;
+	padding-bottom: 7px;
+}
+.hardware_name{
+	color: #666;
+	font-size: 24px;
+	padding-right: 10px;
+	font-weight: normal;
+}
+.line_right{
+	background-size: 90%;
+	width: 35px;
+}
+.firm_des{
+	font-size: 15px;
+	color: #333;
+	line-height: 24px;
+	letter-spacing: 1px;
+}
+.firm_img{
+	padding: 60px 0px;
+}
+/*team*/
+#team{
+	position: relative;
+	background: url(../images/about/gywm_091.jpg) no-repeat top center;
+	width: 100%;
+	background-size: cover;
+	height: 300px;
+}
+#team .container{
+	padding-top: 60px;
+}
+#team .hardware_en{
+	color: #fff;
+}
+#team .hardware_name{
+	color: #fff;
+}
+.t_des{
+	font-size: 16px;
+	color: #333;
+	line-height: 24px;
+	padding: 28px 3px;
+	letter-spacing: 1px;
+}
+/*企业文化*/
+.team_list{
+	margin-top: 120px;
+}
+.team_item{
+	text-align: center;
+	margin-top: 50px;
+}
+.a_name{
+	color: #0e6eb8;
+	font-size: 22px;
+	font-weight: bold;
+	margin: 10px 0px;
+}
+.a_des{
+	color: #848789;
+	font-size: 16px;
+	line-height: 30px;
+}
+.team_img{
+	width: 100%;
+	margin-top: 30px;
+}
+.team_item ul li{
+	list-style-type: disc;
+	list-style-position: inside;
+	color: #2a2a2a;
+	font-size: 14px;
+	padding: 20px 0px;
+}
+.five_item{
+	margin-top: 0px;
+}
+/*权威认证*/
+#auth .container{
+	position: relative;
+}
+.zhiz_top_img{
+	width: 200px;
+}
+.zhiz_img{
+	display: block;
+	margin: 0 auto;
+	width: 315px;
+}
+.zhiz_img img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	border: 0;
+}
+.zhiz_bottom p, .zhiz_top p{
+	text-align: center;
+	color: #666;
+	line-height: 30px;
+	font-size: 13px;
+}
+.qual-baog{
+	width: 100%;
+	margin: 50px 0px;
+}
+.simg,.simg-sml,.simg-abso{
+    cursor: pointer;
+    transition: 0.3s;
+    -moz-transition: 0.3s;	    
+    -webkit-transition:0.3s;	
+    -o-transition: 0.3s;
+    width: 100%;   
+}
+.simg-baog:hover{
+	position: relative;
+    z-index: 99;
+    transform: scale(2,2);
+    -ms-transform: scale(2,2);	      
+    -webkit-transform: scale(2,2);	   
+    -o-transform: scale(2,2);		  
+    -moz-transform: scale(2,2);
+}
+.simg-zhiz:hover{
+    z-index: 99;
+    transform: scale(2,2);
+    -ms-transform: scale(2,2);	      
+    -webkit-transform: scale(2,2);	   
+    -o-transform: scale(2,2);		  
+    -moz-transform: scale(2,2);
+}
+.baog-img img{
+	width: 100%;
+	display: block;
+	border: 0;
+}
+.baog-text{
+	text-align: center;
+	line-height: 25px;
+	font-size: 13px;
+}
+p.baog-n{
+	color: #666;
+}
+p.baog-b{
+	color: #0382DB;
+}
+.middle_text{
+	text-align: center;
+	color: #666;
+	padding: 20px 70px;
+	font-size: 16px;
+	line-height: 30px;
+	margin-bottom: 30px;
+	clear: both;
+}
+.pro-main{
+	width: 290px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.pro-det{
+	display: block;
+	width: 2500px;
+}
+.main-li{
+	display: block;
+	float: left;
+	padding: 10px;
+	width: 290px;
+	text-align: center;
+	white-space: normal;
+	position: relative;
+	background: #E7F0F5;
+}
+.auth_img{
+	width:100%;
+}
+.item_des{
+	background: rgba(51,51,51,0.4);
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	padding: 15px 0px;
+	left: 0;
+	bottom: 0;
+	color: #fff;
+	background: #333;
+	filter:alpha(opacity=40);     
+	-moz-opacity:0.4;              
+	-khtml-opacity:0.4;
+	opacity: 0.4;
+	font-size: 18px;
+}
+.item_des p{
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.cont-left{
+	background: url(../images/about/assistor_right.png) no-repeat;
+	left: 15%;
+}
+.cont-right{
+	background: url(../images/about/assistor_left.png) no-repeat;
+	right: 15%;
+}
+.cont-btn{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	bottom: 15%;
+}
+
+
+/*about_side*/
+#about_side{
+	width: 148px;
+	min-height: 200px;
+	position: fixed;
+	z-index: 999;
+	left: 5%;
+	top: 70%;
+	background: #fff;
+	overflow: hidden;
+}
+#about_side li{
+	border-bottom: 1px solid #ddd;
+	text-align: left;
+	padding-left: 10px;
+	display: inline-block;
+	width: 100%;
+}
+#about_side li.active a,#about_side li.active .i_icon{
+	background: #eff3f6;
+}
+#about_side li a{
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	font-size: 14px;
+	float: left;
+	float: right;
+	width: 80%;
+	margin: 5px 0px;
+}
+.i_icon{
+	background: url(../images/about/y_icon.png) no-repeat center center;
+	font-size: 14px;
+	display: block;
+	float: left;
+	width: 20%;
+	height: 45px;
+	margin: 5px 0px;
+}
+
+/*专家团队修改*/
+.person_hh{
+	margin: 60px 130px 40px 130px;
+}
+.person_list{
+	border: 1px solid #ddd;
+}
+.person_img{
+	padding: 0;
+}
+.person_hh img{
+	width: 150px;
+	height: 150px;
+}
+.person_des_hh{
+	padding: 0px 30px;
+	border-left: 2px solid #0E6EB8;
+	margin: 10px 0px;
+	height: 130px;
+}
+.person_des{
+	padding: 0px 30px;
+	border-left: 2px solid #0E6EB8;
+	margin: 10px 0px;
+	height: 130px;
+	margin-left: -36px;
+}
+.person_name{
+	font-size: 22px;
+	font-weight: 100;
+	color: #000;
+	line-height: 40px;
+}
+.person_desc{
+	font-size: 16px;
+	color: #333;
+	line-height: 30px;
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+.col_bottom{
+	margin-bottom: 20px;
+	padding: 0;
+}
+.col_bottom_des{
+	margin: 0;
+	width: 95%;
+}
+
+
+
+@media (min-width: 1200px){
+	#firm .container,#auth .container{
+		width: 830px;
+	}
+	#team .container{
+		width: 1000px;
+	}
+	.mobile_items{
+		display: none;
+	}
+}
+@media (max-width: 1600px){
+	#page_baner{
+		height: 463px;
+	}
+	.hardware_title{
+		padding-top: 30px;
+	}
+	.team_list{
+		margin-top: 80px;
+	}
+}
+@media (max-width: 1440px){
+	#page_baner{
+		height: 417px;
+	}
+	.hardware_title{
+		padding-top: 10px;
+	}
+}
+@media (max-width: 1280px){
+	#page_baner{
+		height: 370px;
+	}
+	.hardware_title{
+		padding-top: 0px;
+	}
+	#team .container{
+		padding-top: 45px;
+	}
+}
+@media (max-width: 1200px){
+	#page_baner{
+		height: 347px;
+	}
+}
+@media (max-width: 1199px){
+	#page_baner{
+		margin-top: 75px;
+	}
+	#about_side{
+		display: none;
+	}
+	.person_hh{
+		margin: 30px 30px 0px 30px;
+	}
+	.export_hh .person_desc{
+		line-height: 18px;
+	}
+	.pc_items{
+		display: none;
+	}
+}
+@media (max-width: 991px){
+	#page_baner{
+		height: 287px;
+	}
+	.baog-img img{
+		width: 200px;
+		margin: 0 auto;
+	}
+	.middle_text{
+		padding: 20px 0px;
+	}
+	.cont-btn{
+		bottom: 8%;
+	}
+	.person_hh{
+		margin: 30px 0px 0px 0px;
+	}
+	.person_hh .col-sm-2{
+		width: 20%;
+	}
+	.person_hh .col-sm-10{
+		width: 80%;
+	}
+	#team{
+		height: auto;
+		background-size: auto;
+	}
+	.hardware_title{
+		padding-top: 60px;
+	}
+	.five_item img{
+		width: 100%;
+	}
+}
+@media (max-width: 768px){
+	#page_baner{
+		height: 222px;
+	}
+}
+@media (max-width: 767px){
+	.person_hh img{
+		width: 100%;
+		height: 100%;
+		margin-top: 6%;
+	}
+	.person_name{
+		font-size: 18px;
+	}
+	.person_desc{
+		font-size: 13px;
+		-webkit-line-clamp:2;
+		line-height: 25px;
+	}
+}	
+	
+@media (max-width: 680px){
+	.cont-left{
+		left: 5%;
+	}
+	.cont-right{
+		right: 5%;
+	}
+}
+@media (max-width: 600px){
+	.person_hh img{
+		margin-top: 18%;
+	}
+}
+@media (max-width: 563px){
+	.person_hh img{
+		margin-top: 22%;
+	}
+}
+
+@media (max-width: 530px){
+	.simg-baog:hover{
+		position: relative;
+	    z-index: 99;
+	    transform: scale(1.2,1.2);
+	    -ms-transform: scale(1.2,1.2);	      
+	    -webkit-transform: scale(1.2,1.2);	   
+	    -o-transform: scale(1.2,1.2);		  
+	    -moz-transform: scale(1.2,1.2);
+	}
+	.simg-zhiz:hover{
+	    z-index: 99;
+	    transform: scale(1.2,1.2);
+	    -ms-transform: scale(1.2,1.2);	      
+	    -webkit-transform: scale(1.2,1.2);	   
+	    -o-transform: scale(1.2,1.2);		  
+	    -moz-transform: scale(1.2,1.2);
+	}
+	.baog-img img,.zhiz_img{
+		width: 80%;
+	}
+	.cont-btn{
+		bottom: 6%;
+	}
+}
+@media (max-width: 500px){
+	#page_baner{
+		height: 145px;
+	}
+	.person_hh img{
+		margin-top: 32%;
+	}
+}
+@media (max-width: 460px){
+	.main-li,.pro-main{
+		width: 220px;
+	}
+	.cont-btn{
+		bottom: 5%;
+	}
+}
+@media (max-width: 423px){
+	.person_hh img{
+		margin-top: 66%;
+	}
+	.person_des_hh{
+		height: 150px;
+	}
+	.export_hh .person_desc{
+		line-height: 24px;
+	}
+	.person_desc{
+		line-height: 24px;
+	}
+	.person_name{
+		line-height: 25px;
+	}
+	.person_hh img{
+		margin-top: 66%;
+	}
+}
+@media (max-width: 400px){
+	.main-li,.pro-main{
+		width: 180px;
+	}
+	.item_des{
+		font-size: 12px;
+	}
+	.hardware_title{
+		padding: 20px;
+	}
+}
+@media (max-width: 385px){
+	.person_hh img{
+		margin-top: 70%;
+	}
+}
+

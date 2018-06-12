@@ -1,0 +1,173 @@
+/*
+   文件名：about.css
+   备注：官网关于我们样式文件
+   版本：v1.0
+ Created by lc on 2016-11-17.
+ Copyright 2016 ling. All rights reserved.
+*/
+
+@charset "utf-8";
+html, body{
+	background: #fff;
+}
+
+#page_baner{
+	background: url(../images/contact/gyuwm_02.jpg) no-repeat top center;
+	background-size: cover;
+	height: 554px;
+	width: 100%;
+	margin-top: 106px;
+}
+#page_border{
+	position: relative;
+	background: #fff;
+	padding-top: 70px;
+}
+
+.con_h2{
+	color: #5D5D5D;
+	font-size: 28px;
+}
+.con_h2 small{
+	color: #7B7B7B;
+	font-size: 14px;
+}
+.contact_list{
+	margin-top: 30px;
+}
+.contact_list h4{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	color: #616060;
+	margin-bottom: 10px;
+}
+.contact_list p{
+	font-size: 16px;
+	color: #979696;
+	line-height: 40px;
+	cursor: pointer;
+}
+.wx{
+	padding: 20px 0px;
+}
+.wx_img{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+.wx_img img{
+	width: 100%;
+	height: 100%;
+	border: 0;
+	display: block;
+}
+.wx .swx{
+	color: #BDBDBD;
+	font-size: 16px;
+	clear: both;
+	width: 34%;
+	text-align: center;
+}
+.addr_h2{
+	padding-bottom: 8px;
+	padding-top: 40px;
+}
+.addr_des{
+	color: #434141;
+	line-height: 24px;
+	font-size: 15px;
+}
+.map{
+	color: #545353;
+	font-size: 14px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.map_img{
+	display: block;
+	margin-bottom: 90px;
+	width: 100%;
+	max-width: 995px;
+}
+.map_img img{
+	width: 100%;
+	display: block;
+	border: 0;
+}
+
+
+
+
+@media (max-width: 1600px){
+	#page_baner{
+		height: 463px;
+	}
+}
+
+@media (max-width: 1440px){
+	#page_baner{
+		height: 416px;
+	}
+}
+
+@media (max-width: 1280px){
+	#page_baner{
+		height: 370px;
+	}
+}
+
+@media (max-width: 1200px){
+	#page_baner{
+		height: 346px;
+	}
+}
+
+@media (max-width: 991px){
+	#page_baner{
+		height: 286px;
+	}
+	.contact_item{
+		margin: 10px 0px;
+	}
+	.map_img{
+		width: 90%;
+	}
+	.wx .swx{
+		width: 51%;
+	}
+}
+
+@media (max-width: 768px){
+	#page_baner{
+		height: 222px;
+	}
+}
+@media (max-width: 640px){
+	.wx .swx{
+		width: 60%;
+	}
+}
+@media (max-width: 500px){
+	#page_baner{
+		height: 145px;
+	}
+	.wx .swx{
+		width: 78%;
+	}
+}
+
+@media (max-width: 400px){
+	.wx_img{
+		width: 160px;
+		height: 160px;
+	}
+}
+
+@media (max-width: 360px){
+	.wx .swx{
+		width: 88%;
+	}
+}
+
+

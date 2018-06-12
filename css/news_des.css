@@ -1,0 +1,88 @@
+/*
+   文件名：news.css
+   备注：官网新闻中心样式文件
+   版本：v1.0
+ Created by lc on 2016-11-14.
+ Copyright 2016 ling. All rights reserved.
+*/
+
+@charset "utf-8";
+#page_baner{
+	background: url(../images/news/xwzx.jpg) no-repeat top center;
+	background-size: cover;
+	height: 256px;
+	width: 100%;
+	margin-top: 106px;
+}
+
+#page_border .container{
+	position: relative;
+	background: #fff;
+}
+#page_border .container h1{
+	font-size: 24px;
+	line-height: 1.2em;
+	padding: 30px 0px;
+	text-align: center;
+	color: #333;
+	word-spacing: 8px;
+	letter-spacing: 1px;
+}
+.art-hd-det{
+	padding: 10px;
+	color: #666;
+	border-bottom: 1px solid #E4E4E4;
+	overflow: hidden;
+}
+.hd-det-li{
+	margin: 0 5px;
+	color: #555;
+}
+.blue{
+	color: #0E6EB8;
+}
+.liul{
+	text-align: right;
+}
+.art-content{
+	padding: 20px 0px;
+}
+.art-content p{
+	color: #333;
+	font-size: 16px;
+	margin-top: 30px;
+	line-height: 25px;
+}
+
+.a_next,.a_next a{
+	background: #eee;
+	padding: 20px 0px;
+	color: #a0a0a0;
+	font-size: 18px;
+}
+.a_next a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+@media screen and (max-width: 1199px){
+	#page_baner{
+		margin-top: 75px;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.liul{
+		text-align: left;
+		margin-top: 10px;
+	}
+}
+@media screen and (max-width: 768px){
+	#page_baner{
+		height: 102px;
+	}
+}
+@media screen and (max-width: 640px){
+	#page_baner{
+		height: 85px;
+	}
+}

@@ -1,0 +1,1001 @@
+/*
+   文件名：join.css
+   备注：官网招商加盟样式文件
+   版本：v1.0
+ Created by lc on 2016-11-19.
+ Copyright 2016 ling. All rights reserved.
+*/
+
+@charset "utf-8";
+html, body{
+	background: #fff;
+}
+
+#page_baner{
+	background: url(../images/join/jiamdaili_02.jpg) no-repeat top center;
+	background-size: cover;
+	height: 603px;
+	width: 100%;
+	margin-top: 106px;
+}
+
+/*product*/
+#product{
+	position: relative;
+	display: block;
+	background: #fff;
+	padding: 30px 0px;
+}
+#product h2{
+	text-align: center;
+	font-size: 30px;
+	font-weight: normal;
+	padding-bottom: 50px;
+	color: #333;
+}
+.p_list{
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.p_list .p_item a{
+	display: block;
+	text-align: center;
+}
+.p_list .p_item a img{
+	width: 100%;
+	display: block;
+	border: 0;
+}
+.p_bottom{
+	padding: 5px 0px;
+}
+.p_bottom h3{
+	text-align: center;
+	color: #0E6EB8;
+	font-size: 24px;
+	font-weight: normal;
+	padding: 8px 0px;
+}
+.p_bottom .p_des{
+	color: #666;
+	font-size: 15px;
+	line-height: 24px;
+	text-align: center;
+}
+.b_r_top{
+	display: block;
+	background: #0E6EB8;
+	color: #fff;
+	padding: 45px 20px;
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.b_r_bottom{
+	margin: 0;
+}
+.b_r_bottom .b_r_b_left{
+	background: #82ADBE;
+}
+.b_r_bottom .b_r_b_left p{
+	color: #fff;
+	font-size: 15px;
+	line-height: 26px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp:1;
+	-webkit-box-orient:vertical;
+	padding: 6px 0px;
+}
+.b_r_bottom .b_r_b_right{
+	padding-right: 0;
+}
+.b_r_bottom .b_r_b_right img{
+	width: 100%;
+	height: 100%;
+}
+/*项目优势*/
+#advantage{
+	background: #E9F9EF;
+}
+#advantage h2{
+	text-align: center;
+	font-size: 30px;
+	color: #333;
+	font-weight: normal;
+	padding: 40px 0px;
+}
+.adv_num1{
+	background: #A2C046;
+}
+.adv_num{
+	text-align: center;
+	line-height: 2em;
+	height: 110px;
+	width: 30%;
+}
+.adv_num,.adv_word{
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+}
+.adv_word{
+	width: 70%;
+	height: 110px;
+}
+.adv_word img{
+	width: 100%;
+	height: 100%;
+}
+.adv_num span:first-child{
+	font-size: 30px;
+	color: #fff;
+	line-height: 2em;
+	border-bottom: 1px solid #fff;
+	font-weight: bold;
+}
+.adv_num span:last-child{
+	font-size: 14px;
+	color: #fff;
+	line-height: 22px;
+	display: block;
+	text-align: left;
+	padding: 0 5%;
+	text-align: center;
+}
+.adv_item ul.a_ul,.adv_item ul.b_ul{
+	height: 100px;
+}
+.adv_item ul{
+	list-style-type: disc;
+	list-style-position: outside;
+	padding: 30px 2px 20px 55px;
+	clear: both;
+	display: block;
+	width: 100%;
+}
+.adv_item ul li{
+	list-style-type: disc;
+	list-style-position: outside;
+	color: #010101;
+	font-size: 12px;
+	font-size:14px\9;
+	line-height: 24px;
+}
+.adv_num2{
+	background: #7ACB62;
+}
+.adv_num3{
+	background: #10CF9C;
+}
+.adv_num4{
+	background: #0E6EB8;
+}
+.adv_num5{
+	background: #BFBFBF;
+}
+.adv_num6{
+	background: #76ADD6;
+}
+/*注重用户体验*/
+#experience{
+	background: #fff;
+}
+#experience h2{
+	text-align: center;
+	font-size: 30px;
+	color: #333;
+	font-weight: normal;
+	padding-top: 35px;
+}
+.ex_line{
+	display: block;
+	width: 100%;
+	margin: 20px auto;
+}
+.ex_line img{
+	width: 100%;
+}
+.video{
+	padding-top: 10px;
+}
+.video_item{
+	height: 231px;
+	overflow: hidden;
+	position: relative;
+}
+.video_item a img{
+	width: 100%;
+	height: 100%;
+}
+.item_des{
+	background: rgba(51,51,51,0.7);
+	position: absolute;
+	width: 92%;
+	text-align: center;
+	padding: 5px 0px;
+	left: 4%;
+	bottom: 0;
+	color: #fff;
+	font-size: 16px;
+	background: #333;
+	filter:alpha(opacity=70);       /* IE */
+	-moz-opacity:0.7;
+	-khtml-opacity:0.7;
+	opacity: 0.7;
+}
+.item_des p{
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	padding: 5px 0px\9;
+	font-size: 16px\9;
+}
+/*选择艾灸五大理由*/
+#reason h2{
+	text-align: center;
+	font-size: 30px;
+	color: #333;
+	font-weight: normal;
+	padding-top: 35px;
+}
+.re_list{
+	position: relative;
+	background: #E6E6E6;
+	padding: 5px;
+	color: #fff;
+}
+.re_list .re_num{
+	background: #6298CB;
+	width: 9%;
+	float: left;
+	height: 60px;
+	overflow: hidden;
+}
+.re_num p{
+	font-size: 28px;
+	text-align: center;
+	padding-top: 22px;
+}
+.re_list .re_word{
+	background: #6298CB;
+	width: 89%;
+	float: right;
+	height: 60px;
+	overflow: hidden;
+}
+.re_word p{
+	font-size: 16px;
+	padding: 20px;
+	line-height: 30px;
+}
+/*六星服务支持*/
+#service{
+	background: #fff;
+}
+#service h2{
+	text-align: center;
+	color: #333;
+	font-size: 30px;
+	font-weight: normal;
+	padding-top: 35px;
+	padding-bottom: 70px;
+}
+.serve_list{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 14px;
+	color: #333;
+}
+.serve_list dd{
+	float: left;
+	width: 50%;
+	padding-right: 3%;
+	position: relative;
+	line-height: 15px;
+	border-right: 2px solid #000;
+	padding-bottom: 110px;
+}
+.serve_list dt{
+	float: left;
+	width: 50%;
+	padding-left: 3%;
+	position: relative;
+	padding-top: 90px;
+}
+.serve_list .serve_title{
+	margin-bottom: 10px;
+	background: #6298CB;
+	padding: 10px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius: 5px;
+	color: #fff;
+}
+.serve_list dd .serve_title{
+	display: inline-block;
+	padding: 9px 10px;
+	float: right;
+}
+.serve_list dd .first_p{
+	line-height: 20px;
+	text-align: right;
+	clear: both;
+	margin-bottom: 8px;
+}
+.serve_list dd .second_p{
+	line-height: 20px;
+	text-align: right;
+	margin-bottom: 8px;
+}
+.serve_list dd .third_p{
+	line-height: 20px;
+	text-align: right;
+}
+.serve_list dd .dote_ico{
+	position: absolute;
+	background: #fff;
+	top:0px;
+	right: -6px;
+	width: 10px;
+	height: 10px;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius: 50%;
+	border: 2px solid #000;
+}
+.serve_list dt .dote_ico{
+	position: absolute;
+	background: #fff;
+	top:100px;
+	left: -6px;
+	width: 10px;
+	height: 10px;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius: 50%;
+	border: 2px solid #000;
+}
+.serve_list dt .serve_title{
+	padding: 9px 10px;
+}
+.serve_list dt .first_p{
+	line-height: 20px;
+	font-weight: normal;
+	margin-top: 10px;
+}
+.serve_list dt .second_p{
+	line-height: 20px;
+	font-weight: normal;
+	margin-top: 8px;
+}
+.serve_list dt .third_p{
+	line-height: 20px;
+	font-weight: normal;
+	margin-top: 8px;
+}
+.serve_list .last_dd{
+	padding-bottom: 50px;
+}
+.serve_list .last_dt{
+	float: none;
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	border: none;
+	padding-top: 130px;
+	padding-left: 0px;
+	margin-bottom: 80px;
+}
+.adv_item{
+	margin-bottom: 20px;
+}
+/*合作流程*/
+#cooperation{
+	background: #fff;
+}
+#cooperation h2{
+	text-align: center;
+	color: #F1AB00;
+	font-size: 30px;
+	font-weight: normal;
+	padding-bottom: 40px;
+}
+.coop_list{
+	overflow: hidden;
+}
+.coop_item{
+	display: table;
+	width: 100%;
+	padding: 5px 0px;
+}
+.coop_item i{
+	display: block;
+	float: left;
+	font-size: 16px;
+	background: url(../images/join/dd.png) no-repeat;
+	background-size: 100%;
+	width: 30px;
+	height: 45px;
+	text-align: center;
+	color: #000;
+	padding-top: 3px;
+	width: 40px\9;
+	height: 50px\9;
+	padding-top: 8px\9;
+}
+.coop_item .coop_word{
+	display: block;
+	float: left;
+}
+.coop_word p{
+	color: #fff;
+	font-size: 16px;
+	background: #f1ab00;
+	padding: 10px 20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	border-radius: 20px;
+	margin-left: 20px;
+}
+/*专业团队*/
+#team h2{
+	text-align: center;
+	color: #333;
+	font-size: 30px;
+	font-weight: normal;
+	padding: 70px 0px 0px 0px;
+}
+.team_list{
+	margin-bottom: 40px;
+}
+.item_bottom .inde{
+	text-indent: 14px;
+}
+.item_bottom .p_title{
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+}
+.item_bottom p{
+	color: #333;
+	font-size: 14px;
+	line-height: 26px;
+}
+.pad_40{
+	padding: 30px 0px;
+}
+.pad_bottom{
+	padding-bottom: 40px;
+}
+/*报名板块*/
+#form h2{
+	text-align: center;
+	font-size: 30px;
+	color: #333;
+	font-weight: normal;
+	padding-top: 35px;
+}
+/*加盟代理右侧固定部分*/
+#page-side{
+	width: 150px;
+	height: 330px;
+	position: fixed;
+	z-index: 99;
+	right: 10px;
+	bottom: 150px;
+	text-align: center;
+	border-bottom: 12px solid #D6D6D6;
+	border-top: 12px solid #D6D6D6;
+	border-left: 10px solid #D6D6D6;
+	border-right: 10px solid #D6D6D6;
+	background: #fff;
+}
+.side_qq{
+	border-bottom: 5px solid #D6D6D6;
+	height: 95px;
+}
+.side_qq img{
+	width: 100%;
+	height: 100%;
+}
+.side_wx{
+	padding-bottom: 5px;
+	border-bottom: 5px solid #D6D6D6;
+}
+.side_wx img{
+	width: 100%;
+}
+.side_wx p{
+	color: #333;
+	font-size: 14px;
+}
+.phone_des{
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 6px;
+}
+.phone{
+	color: #333;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+}
+/*回到顶部*/
+#gotop{
+	width: 150px;
+	background-color: #D6D6D6;
+	position: fixed;
+	bottom: 121px;
+	right: 10px;
+	z-index: 99;
+	text-align: center;
+}
+#gotop span{
+	display: inline-block;
+	background: url(../images/join/top-arrow.jpg) no-repeat;
+	background-size: 100%;
+	width: 20px;
+	width: 26px\9;
+	height: 15px;
+	margin-top: 7px;
+}
+
+/*专家团队修改*/
+#team .ex_line{
+	width: 90%;
+}
+.person_list{
+	border: 1px solid #ddd;
+}
+.person_hh{
+	margin: 60px 130px 40px 130px;
+}
+.person_img{
+	padding: 0;
+}
+.person_hh img{
+	width: 150px;
+	height: 150px;
+}
+.person_des_hh{
+	padding: 0px 30px;
+	border-left: 2px solid #0E6EB8;
+	margin: 10px 0px;
+	height: 130px;
+}
+.person_des{
+	padding: 0px 30px;
+	border-left: 2px solid #0E6EB8;
+	margin: 10px 0px;
+	height: 130px;
+	margin-left: -36px;
+}
+.person_name{
+	font-size: 22px;
+	font-weight: 100;
+	color: #000;
+	line-height: 40px;
+}
+.col_bottom_des{
+	margin: 0;
+	width: 95%;
+}
+.person_desc{
+	font-size: 16px;
+	color: #333;
+	line-height: 30px;
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+.col_bottom{
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+
+/*表单*/
+#form{
+	margin-top: 40px;
+}
+#form .form_container{
+	background: #565656;
+}
+#form .ex_line{
+	width: 40%;
+	margin-bottom: 30px;
+}
+#form .container{
+	width: 600px;
+	padding: 80px 0px;
+	margin-left: 37%;
+}
+#apply_form .field{
+	margin-bottom: 20px;
+	position: relative;
+	line-height: 32px;
+}
+#apply_form label{
+	width: 50px;
+	color: #fff;
+	display: block;
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+	font-size: 16px;
+	height: 50px;
+	line-height: 50px;
+}
+#apply_form .field input{
+	font-size: 16px;
+	float: left;
+	border: 1px solid #ddd;
+	width: 414px;
+	height: 50px;
+	line-height: 50px;
+	padding: 5px 10px;
+}
+#apply_form .field textarea{
+	height: 200px;
+	color: #000;
+	float: left;
+	border: 1px solid #ddd;
+	width: 414px;
+	line-height: 20px;
+	padding: 5px 10px;
+	resize: none;
+}
+#apply_form .error{
+	font-size: 14px;
+	color: #f4801d;
+	float: left;
+	margin-left: 10px;
+	height: 50px;
+	line-height: 50px;
+}
+#apply_form .field input[type="submit"]{
+	border-color: #6199CA;
+	background: #6199CA;
+	color: #fff;
+	font-size: 20px;
+	line-height: 30px;
+	height: 50px;
+}
+
+
+@media (min-width: 1200px){
+	#product .container,#advantage .container,#experience .container,#reason .container,#service .container{
+		width: 800px;
+	}
+	#cooperation .container{
+		width: 470px;
+	}
+}
+
+
+@media (max-width: 1600px){
+	#page_baner{
+		height: 503px;
+	}
+	#form .container{
+		margin-left: 35%;
+	}
+}
+
+@media (max-width: 1440px){
+	#page_baner{
+		height: 452px;
+	}
+}
+
+@media (max-width: 1280px){
+	#page_baner{
+		height: 403px;
+	}
+	#form .container{
+		margin-left: 32%;
+	}
+}
+@media (min-width: 1200px){
+	.mobile_items{
+		display: none;
+	}
+}
+@media (max-width: 1199px){
+	#page_baner{
+		margin-top: 75px;
+	}
+	.pc_items{
+		display: none;
+	}
+	.person_hh{
+		margin: 30px 30px 0px 30px;
+	}
+	.export_hh .person_desc{
+		line-height: 18px;
+	}
+	.adv_item ul.c_ul, .adv_item ul.d_ul,.adv_item ul.e_ul,.adv_item ul.f_ul{
+		height: 100px;
+	}
+}
+
+@media (max-width: 1200px){
+	#page_baner{
+		height: 377px;
+	}
+}
+@media (max-width: 991px){
+	#page_baner{
+		height: 310px;
+	}
+	.adv_num span:last-child{
+		text-align: center;
+	}
+	.video_item{
+		height: 216px;
+	}
+	.team_img{
+		width: 60%;
+		display: block;
+		margin: 0 auto;
+	}
+	.pad_40{
+		padding: 5px 0px;
+	}
+	.item_bottom .p_title{
+		text-align: center;
+	}
+	.pad_bottom{
+		padding-bottom: 5px;
+	}
+	#page-side,#gotop{
+		display: none;
+	}
+	.person_hh{
+		margin: 30px 0px 0px 0px;
+	}
+	.person_hh .col-sm-2{
+		width: 20%;
+	}
+	.person_hh .col-sm-10{
+		width: 80%;
+	}
+	.adv_item ul.a_ul, .adv_item ul.b_ul{
+		height: auto;
+	}
+	#form .ex_line{
+		width: 95%;
+	}
+	#form .container{
+		margin-left: 25%;
+	}
+}
+
+@media (max-width: 767px){
+	#page_baner{
+		height: 240px;
+	}
+	.p_list{
+		height: auto;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.p_bottom .p_des{
+		line-height: 30px;
+	}
+	.b_r_bottom{
+		overflow: hidden;
+	}
+	.b_r_bottom .b_r_b_right img,.b_r_bottom .b_r_b_left,.b_r_bottom{
+		height: 210px;
+	}
+	.b_r_bottom .b_r_b_left p{
+		line-height: 40px;
+	}
+	.video_item{
+		height: auto;
+	}
+	.video_item a img{
+		width: 80%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+	.video_item{
+		margin-top: 10px;
+	}
+	.item_des{
+		width: 76.7%;
+		left: 11.6%;
+	}
+	.person_hh img{
+		width: 100%;
+		height: 100%;
+		margin-top: 6%;
+	}
+	.person_name{
+		font-size: 18px;
+	}
+	.person_desc{
+		font-size: 13px;
+		-webkit-line-clamp:2;
+		line-height: 25px;
+	}
+	#form .container{
+		margin-left: 21%;
+	}
+}
+@media (max-width: 620px){
+	#form .container{
+		padding: 50px 20px;
+		width: auto;
+	}
+	#apply_form .field input{
+		width: 380px;
+		height: 32px;
+		line-height: 32px;
+	}
+	#apply_form label,#apply_form .error{
+		height: 32px;
+		line-height: 32px;
+	}
+	#apply_form label,#apply_form .field input{
+		font-size: 14px;
+	}
+	#apply_form .error{
+		font-size: 12px;
+	}
+	#apply_form .field textarea{
+		width: 380px;
+		height: 130px;
+	}
+	#form .container{
+		margin-left: 15%;
+	}
+}
+
+@media (max-width: 600px){
+	#page_baner{
+		height: 188px;
+	}
+	.b_r_bottom .b_r_b_right img,.b_r_bottom .b_r_b_left,.b_r_bottom{
+		height: 160px;
+	}
+	.b_r_bottom .b_r_b_left p{
+		line-height: 30px;
+	}
+	.item_des{
+		width: 76%;
+		left: 12%;
+	}
+	.person_hh img{
+		margin-top: 18%;
+	}
+}
+@media (max-width: 563px){
+	.re_word p{
+		padding: 15px;
+	}
+	.person_hh img{
+		margin-top: 22%;
+	}
+	#form .container{
+		margin-left: 10%;
+	}
+}
+@media (max-width: 551px){
+	.re_list .re_num,.re_list .re_word{
+		height: 86px;
+	}
+}
+@media (max-width: 500px){
+	#page_baner{
+		height: 157px;
+	}
+	.b_r_bottom .b_r_b_right img, .b_r_bottom .b_r_b_left, .b_r_bottom{
+		width: 100%;
+		height: auto;
+	}
+	.b_r_bottom .b_r_b_right{
+		width: 100%;
+		margin-top: 10px;
+		padding: 0;
+	}
+	.b_r_top{
+		padding: 30px 7px;
+	}
+	.video_item a img{
+		width: 100%;
+	}
+	.item_des{
+		width:94%;
+		left: 3%;
+	}
+	.team_img{
+		width: 100%;
+	}
+	.person_hh img{
+		margin-top: 32%;
+	}
+	#apply_form .field input,#apply_form .field textarea{
+		width: 330px;
+	}
+}
+@media (max-width: 423px){
+	.coop_item i{
+		width: 20px;
+		height: 26px;
+		font-size: 13px;
+		padding-top: 0;
+	}
+	.coop_word p{
+		padding: 5px 10px;
+		margin-left: 10px;
+		font-size: 13px;
+	}
+	.coop_item{
+		padding: 6px 0px;
+	}
+	.person_hh img{
+		margin-top: 66%;
+	}
+	.person_des_hh{
+		height: 150px;
+	}
+	.export_hh .person_desc{
+		line-height: 24px;
+	}
+	.person_desc{
+		line-height: 24px;
+	}
+	.person_name{
+		line-height: 25px;
+	}
+}
+@media (max-width: 385px){
+	.adv_num{
+		width: 37%;
+	}
+	.adv_word{
+		width: 63%;
+	}
+	.adv_item ul{
+		padding: 30px 2px 20px 30px;
+	}
+	.item_des{
+		width:92%;
+		left: 4%;
+	}
+	.re_list .re_num{
+		width: 20%;
+	}
+	.re_list .re_word{
+		width: 78%;
+	}
+	.person_hh img{
+		margin-top: 70%;
+	}
+	#apply_form .field input,#apply_form .field textarea{
+		width: 245px;
+	}
+}
+@media (max-width: 345px){
+	.re_list .re_word,.re_list .re_num{
+		height: 110px;
+	}
+	.re_num p{
+		padding-top: 32px;
+	}
+}
+
+
+
+
